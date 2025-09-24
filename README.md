@@ -1,4 +1,5 @@
 <img width="1333" height="2000" alt="Greenleaf Store picture" src="https://github.com/user-attachments/assets/536e6c08-e097-4fe8-9076-c0f69df2cf94" />
+
 **GREENLEAF-PROJECT**
 
 GreenLeaf Completion is a business analytics project transforming raw sales data into insights with KPIs, pivot tables &amp; dashboards. It tracks revenue, profit, customer trends &amp; shipment status, helping uncover product performance &amp; drive data-driven decisions.
@@ -18,7 +19,7 @@ The dataset captures detailed order-level information, including product categor
 
 The objective of this project is not only to highlight financial performance but also to provide a framework for operational monitoring. By leveraging structured Excel workflows—including clean datasets, pivot analysis, and visualization—the project demonstrates how raw, unstructured data can be transformed into a decision-support system for business leaders.
 
-Key questions addressed in this project include:
+**Key questions addressed in this project include:**
 
 Which product categories drive the highest profitability?
 
