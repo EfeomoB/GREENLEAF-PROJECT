@@ -1,32 +1,60 @@
 <img width="1333" height="2000" alt="Greenleaf Store picture" src="https://github.com/user-attachments/assets/536e6c08-e097-4fe8-9076-c0f69df2cf94" />
 
-**GREENLEAF-PROJECT**
+# 🌿 GreenLeaf Completion — Business Analytics & KPI Dashboard Project
 
-GreenLeaf Completion is a business analytics project transforming raw sales data into insights with KPIs, pivot tables &amp; dashboards. It tracks revenue, profit, customer trends &amp; shipment status, helping uncover product performance &amp; drive data-driven decisions.
-This project, GreenLeaf Completion, is a comprehensive business analytics solution built on real-world transactional sales data from GreenLeaf, a sustainable and eco-friendly product distributor. The project focuses on transforming raw sales data into actionable business insights through structured cleaning, analysis, and visualization.
+**Transforming raw sales data into actionable business insights using Excel-based workflows.**
 
-The dataset captures detailed order-level information, including product categories, unit prices, costs, customer demographics, states, and shipment statuses. From this foundation, the project progresses through several structured stages:
+GreenLeaf Completion is a comprehensive business analytics project that converts order-level transactional data from *GreenLeaf* — a sustainable, eco-friendly product distributor — into clean datasets, KPIs, pivot analysis, and an interactive Excel dashboard to support data-driven decision-making.
 
-**Raw Data Compilation**– Collection of customer orders, product details, and fulfillment statuses.
+---
 
-**Data Cleaning & Preparation** – Standardization of inconsistent text fields, correction of anomalies, and organization into structured formats suitable for analysis.
+## 🚀 Project Summary
 
-**KPI Tracking** – Calculation of essential business metrics such as revenue, cost, profit margin, and product performance across different categories.
+This repository demonstrates an end-to-end Excel analytics workflow:
 
-**Exploratory Analysis** – Pivot tables and aggregated metrics provide visibility into sales distribution by state, shipment efficiency, and customer purchase behaviors.
+1. **Raw Data Compilation** — order-level records (customer, products, prices, costs, shipping).
+2. **Data Cleaning & Preparation** — standardized fields, corrected anomalies, structured tables.
+3. **KPI Tracking** — revenue, cost, profit, margin, top products/categories.
+4. **Exploratory Analysis (EDA)** — pivot tables and aggregated metrics (by state, shipment, customer).
+5. **Dashboard Creation** — interactive Excel dashboard that visualizes KPIs, trends, and shipment status.
 
-**Dashboard Creation** – A visually interactive dashboard consolidates all insights, offering a real-time overview of business performance to support data-driven decision-making.
+---
 
-The objective of this project is not only to highlight financial performance but also to provide a framework for operational monitoring. By leveraging structured Excel workflows—including clean datasets, pivot analysis, and visualization—the project demonstrates how raw, unstructured data can be transformed into a decision-support system for business leaders.
+## 🎯 Core Objectives
 
-**Key questions addressed in this project include:**
+- Produce a clean, analysis-ready dataset from raw sales transactions.
+- Calculate actionable KPIs and highlight profitable categories.
+- Reveal regional performance and shipment impacts on returns/customer satisfaction.
+- Provide an interactive dashboard for business leaders to monitor operations at-a-glance.
 
-Which product categories drive the highest profitability?
+---
 
-How do shipment statuses impact customer satisfaction and returns?
+## ❓ Key Business Questions Addressed
 
-Which states and regions contribute most to sales performance?
+- Which product categories drive the highest profitability?
+- How do shipment statuses impact returns and customer satisfaction?
+- Which states/regions contribute the most to revenue and profit?
+- What patterns exist in customer purchase frequency and preferences?
 
-What patterns can be observed in customer purchase frequency and product preferences?
+---
 
-This repository is designed as a blueprint for anyone seeking to perform end-to-end sales analytics using Excel. It demonstrates best practices in dataset preparation, KPI reporting, and dashboarding, making it valuable for data analysts, business strategists, and students exploring real-world applications of data-driven decision-making.
+## 🧠 Tools & Techniques
+
+- **Data cleaning & transformation:** Microsoft Excel (Power Query)
+- **Analysis:** Excel formulas, Pivot Tables, aggregation
+- **Visualization & dashboarding:** Excel charts and dashboard sheets
+- **Deliverables:** Cleaned dataset, KPI sheet, pivot analysis workbook, interactive dashboard
+
+---
+
+## 📈 Typical KPIs & Calculations
+
+- **Total Revenue** = `SUM(UnitPrice * Quantity)`
+- **Total Cost** = `SUM(UnitCost * Quantity)`
+- **Profit** = `Total Revenue - Total Cost`
+- **Profit Margin (%)** = `IF(TotalRevenue>0, Profit / TotalRevenue, 0)`
+- **Average Order Value (AOV)** = `Total Revenue / Number_of_Orders`
+- **Repeat Purchase Rate** = `Repeat_Customers / Total_Customers`
+
+
+
